@@ -12,7 +12,7 @@ msgstr ""
 "X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: multimc\n"
 "Language-Team: Thai\n"
-"Language: th_TH\n"
+"Language: th_TH\n"ดาวน์โหลด
 "PO-Revision-Date: 2022-04-13 03:55\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:94
@@ -25,19 +25,19 @@ msgstr "ไม่สามารถเข้าใจแพ็ครายกา
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "ไม่สามารถรับข้อมูลเมตาในเครื่องสำหรับ %1"
+msgstr "ไม่สามารถรับข้อมูลที่จำเป็นต่อเครื่อง %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:108
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "ไม่สามารถรับดัชนีข้อมูลเมตาในเครื่องสำหรับ '%1' v%2"
+msgstr "ไม่สามารถรับข้อมูลที่จำเป็นต่อเครื่อง '%1' v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:170
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr "ประเภทม็อดที่ไม่รู้จัก: %1"
+msgstr "ไม่รู้จักประเภทของม็อด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:215
 #, qt-format
@@ -54,28 +54,28 @@ msgstr "ไม่ได้ตั้งค่าเวอร์ชันตัว
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: %1"
-msgstr "ประเภทการดาวน์โหลดที่ไม่รู้จักหรือไม่รองรับ: %1"
+msgstr "ไม่รู้จัก หรือ ไม่รองรับประเภทของการดาวน์โหลด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "กำลังดาวน์โหลดค่ากำหนด..."
+msgstr "กำลังดาวน์โหลดค่าที่กำหนด..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:427
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Config download"
-msgstr "ดาวน์โหลดค่ากำหนด"
+msgstr "ดาวน์โหลดค่าที่กำหนด"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:467
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr "กำลังแยกค่ากำหนด..."
+msgstr "กำลังแยกค่าที่กำหนด..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:474
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "เกิดข้อผิดพลาดในการเปิดแพ็คค่ากำหนด %1!"
+msgstr "เกิดข้อผิดพลาดในการเปิดแพ็คค่าที่กำหนด %1!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:504
 msgctxt "ATLauncher::PackInstallTask|"
@@ -96,13 +96,13 @@ msgstr "ดาวน์โหลดม็อด"
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unsupported download type: %1"
-msgstr "ประเภทการดาวน์โหลดที่ไม่รองรับ: %1"
+msgstr "ไม่รองรับประเภทของการดาวน์โหลด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:531
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown download type: %1"
-msgstr "ประเภทการดาวน์โหลดที่ไม่รู้จัก: %1"
+msgstr "ไม่รู้จักประเภทของการดาวน์โหลด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:645
 msgctxt "ATLauncher::PackInstallTask|"
@@ -122,12 +122,12 @@ msgstr "กำลังติดตั้งม็อดแพ็ค"
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:732
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "ไม่สามารถสร้างส่วนประกอบไลบรารี"
+msgstr "การสร้างสร้างส่วนประกอบไลบรารีไม่สำเร็จ"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:756
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "ประเภทโหลดเดอร์ที่ไม่รู้จัก: "
+msgstr "ที่ไม่รู้จักประเภทของโหลดเดอร์: "
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:770
 msgctxt "ATLauncher::PackInstallTask|"
@@ -220,8 +220,8 @@ msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>เราทำให้ MultiMC เป็นโอเพ่นซอร์ส เพราะเราคิดว่าการที่สามารถดูซอร์สโค้ดของโปรเจ็กต์เช่นนี้ได้ ถือว่าเป็นเรื่องสำคัญ และเราทำเช่นนั้นด้วยการใช้ใบอนุญาต Apache</p>\n"
-"<p>เหตุผลส่วนหนึ่งในการใช้ใบอนุญาต Apache คือเราไม่ต้องการให้ผู้อื่นใช้ชื่อ &quot;MultiMC&quot; เมื่อจะทำการแจกจ่ายโปรเจ็กต์ใหม่ ซึ่งหมายความว่าคนคนนั้นจะต้องใช้เวลาในการค้นหาซอร์สโค้ดและลบข้อความที่มีการอ้างอิงถึง &quot;MultiMC&quot; ทั้งหมดออก ซึ่งรวมถึงทั้งไอคอนโปรเจ็กต์และชื่อหน้าต่าง (จะต้องไม่ใช้ชื่อ <b>MultiMC-fork</b>)</p>\n"
+msgstr "<p>พวกเราได้ทำให้ MultiMC เป็นโอเพ่นซอร์ส เพราะเราคิดว่าการที่สามารถดูซอร์สโค้ดของโปรเจ็กต์เช่นนี้ได้นั้น นับว่าว่าเป็นเรื่องสำคัญ และการกระทำของเรานั้นได้ใช้ใบอนุญาต Apache</p>\n"
+"<p>เหตุผลส่วนหนึ่งที่เราใช้ใบอนุญาต Apache คือเราไม่ต้องการให้ผู้อื่นใช้ชื่อ &quot;MultiMC&quot; เมื่อจะทำการแจกจ่ายโปรเจ็กต์ใหม่ ซึ่งหมายความว่าคนคนนั้นจะต้องใช้เวลาในการค้นหาซอร์สโค้ดและลบข้อความที่มีการอ้างอิงถึง &quot;MultiMC&quot; ทั้งหมดออก ซึ่งรวมถึงทั้งไอคอนโปรเจ็กต์และชื่อหน้าต่าง (จะต้องไม่ใช้ชื่อ <b>MultiMC-fork</b>)</p>\n"
 "<p>ใบอนุญาต Apache ครอบคลุมการใช้ชื่ออย่างสมเหตุสมผล - การกล่าวถึงที่มาของโครงการในกล่องไดอะล็อก \"เกี่ยวกับ\" และใบอนุญาตใหม่เป็นที่ยอมรับได้ อย่างไรก็ตาม ควรมีข้อความบอกชัดเจนให้ประจักษ์ชัดว่าโครงการนี้เป็นโครงการแยก <b>โดยห้าม</b>เออออไปเองว่าโครงการเป็นโครงการที่ได้รับการสนับสนุนจากโครงการหลัก</p>"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:277
