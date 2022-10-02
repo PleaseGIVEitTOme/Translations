@@ -37,24 +37,24 @@ msgstr "ไม่สามารถรับดัชนีข้อมูลเ
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr "ประเภทม็อดที่ไม่รู้จัก: %1"
+msgstr "ไม่รู้จักประเภทของม็อด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:215
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "ไม่พบเวอร์ชันสำหรับตัวโหลด %1"
+msgstr "ไม่พบเวอร์ชันสำหรับตัวโหลดเดอร์ %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:229
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "ไม่ได้ตั้งค่าเวอร์ชันตัวโหลดสำหรับ modpack!"
+msgstr "ไม่ได้ตั้งค่าเวอร์ชันตัวโหลดสำหรับ ม็อดแพค!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:333
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: %1"
-msgstr "ประเภทการดาวน์โหลดที่ไม่รู้จักหรือไม่รองรับ: %1"
+msgstr "ไม่รู้จักหรือไม่รองรับประเภทของการดาวน์โหลด: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:426
 msgctxt "ATLauncher::PackInstallTask|"
@@ -242,12 +242,12 @@ msgstr "ออนไลน์"
 #: src/launcher/minecraft/auth/AccountList.cpp:286
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr "กำลังทำงาน"
+msgstr "กำลังทำงานอยู่"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr "เกิดข้อผิดพลาด"
+msgstr "มีข้อผิดพลาดเกิดขึ้น"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
@@ -332,7 +332,7 @@ msgstr "เพิ่มบัญชี Mojang"
 #: src/launcher/ui/pages/global/AccountListPage.ui:72
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "นำออก"
+msgstr "ลบออก"
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:77
 msgctxt "AccountListPage|"
